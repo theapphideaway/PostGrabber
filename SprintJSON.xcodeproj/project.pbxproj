@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AC1BFAEE599C6AED1F0E958 /* Pods_SprintJSONUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B8B42DAD018CEB27B5CB2B /* Pods_SprintJSONUITests.framework */; };
+		6B1741EE0B4472FDDFF8F1B8 /* Pods_SprintJSONTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9AE7F704843C569B5A8F23 /* Pods_SprintJSONTests.framework */; };
 		DF4853A02231B7C700ED06E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF48539F2231B7C700ED06E2 /* AppDelegate.swift */; };
 		DF4853A22231B7C700ED06E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4853A12231B7C700ED06E2 /* ViewController.swift */; };
 		DF4853A52231B7C700ED06E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4853A32231B7C700ED06E2 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		DF4853AA2231B7C900ED06E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4853A82231B7C900ED06E2 /* LaunchScreen.storyboard */; };
 		DF4853B52231B7C900ED06E2 /* SprintJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4853B42231B7C900ED06E2 /* SprintJSONTests.swift */; };
 		DF4853C02231B7C900ED06E2 /* SprintJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4853BF2231B7C900ED06E2 /* SprintJSONUITests.swift */; };
+		DF4853CE2231B8A800ED06E2 /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4853CD2231B8A800ED06E2 /* WebAPI.swift */; };
+		F1E214DACA1EA9AF81B042EA /* Pods_SprintJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8904D10B9B1FE6646F721B8 /* Pods_SprintJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28DBED9A4A655FF7B152BF5B /* Pods-SprintJSONTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SprintJSONTests.release.xcconfig"; path = "Target Support Files/Pods-SprintJSONTests/Pods-SprintJSONTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EA752B0B98E1843F30313DE /* Pods-SprintJSONUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SprintJSONUITests.release.xcconfig"; path = "Target Support Files/Pods-SprintJSONUITests/Pods-SprintJSONUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88B8B42DAD018CEB27B5CB2B /* Pods_SprintJSONUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SprintJSONUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E0D4AEB979F80FAF027DB4 /* Pods-SprintJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SprintJSON.release.xcconfig"; path = "Target Support Files/Pods-SprintJSON/Pods-SprintJSON.release.xcconfig"; sourceTree = "<group>"; };
+		89FC2AF78FBB5EDA9B7AEA17 /* Pods-SprintJSONUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SprintJSONUITests.debug.xcconfig"; path = "Target Support Files/Pods-SprintJSONUITests/Pods-SprintJSONUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8904D10B9B1FE6646F721B8 /* Pods_SprintJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SprintJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D954C263348BA2D70FBEE058 /* Pods-SprintJSONTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SprintJSONTests.debug.xcconfig"; path = "Target Support Files/Pods-SprintJSONTests/Pods-SprintJSONTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC299531F4F2ABD3C3DFA550 /* Pods-SprintJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SprintJSON.debug.xcconfig"; path = "Target Support Files/Pods-SprintJSON/Pods-SprintJSON.debug.xcconfig"; sourceTree = "<group>"; };
 		DF48539C2231B7C700ED06E2 /* SprintJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SprintJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF48539F2231B7C700ED06E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4853A12231B7C700ED06E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		DF4853BB2231B7C900ED06E2 /* SprintJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprintJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4853BF2231B7C900ED06E2 /* SprintJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintJSONUITests.swift; sourceTree = "<group>"; };
 		DF4853C12231B7C900ED06E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4853CD2231B8A800ED06E2 /* WebAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
+		FC9AE7F704843C569B5A8F23 /* Pods_SprintJSONTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SprintJSONTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E214DACA1EA9AF81B042EA /* Pods_SprintJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1741EE0B4472FDDFF8F1B8 /* Pods_SprintJSONTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC1BFAEE599C6AED1F0E958 /* Pods_SprintJSONUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1155ADED52397B838F8191E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC299531F4F2ABD3C3DFA550 /* Pods-SprintJSON.debug.xcconfig */,
+				88E0D4AEB979F80FAF027DB4 /* Pods-SprintJSON.release.xcconfig */,
+				D954C263348BA2D70FBEE058 /* Pods-SprintJSONTests.debug.xcconfig */,
+				28DBED9A4A655FF7B152BF5B /* Pods-SprintJSONTests.release.xcconfig */,
+				89FC2AF78FBB5EDA9B7AEA17 /* Pods-SprintJSONUITests.debug.xcconfig */,
+				4EA752B0B98E1843F30313DE /* Pods-SprintJSONUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C536D12774887A0792A11B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8904D10B9B1FE6646F721B8 /* Pods_SprintJSON.framework */,
+				FC9AE7F704843C569B5A8F23 /* Pods_SprintJSONTests.framework */,
+				88B8B42DAD018CEB27B5CB2B /* Pods_SprintJSONUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF4853932231B7C700ED06E2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				DF4853B32231B7C900ED06E2 /* SprintJSONTests */,
 				DF4853BE2231B7C900ED06E2 /* SprintJSONUITests */,
 				DF48539D2231B7C700ED06E2 /* Products */,
+				1155ADED52397B838F8191E7 /* Pods */,
+				5C536D12774887A0792A11B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +146,7 @@
 				DF4853A62231B7C900ED06E2 /* Assets.xcassets */,
 				DF4853A82231B7C900ED06E2 /* LaunchScreen.storyboard */,
 				DF4853AB2231B7C900ED06E2 /* Info.plist */,
+				DF4853CD2231B8A800ED06E2 /* WebAPI.swift */,
 			);
 			path = SprintJSON;
 			sourceTree = "<group>";
@@ -132,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF4853C42231B7C900ED06E2 /* Build configuration list for PBXNativeTarget "SprintJSON" */;
 			buildPhases = (
+				A020C86DD9BAC34B76BE017C /* [CP] Check Pods Manifest.lock */,
 				DF4853982231B7C700ED06E2 /* Sources */,
 				DF4853992231B7C700ED06E2 /* Frameworks */,
 				DF48539A2231B7C700ED06E2 /* Resources */,
+				882E2A5E14C53BEB6ADEB851 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF4853C72231B7C900ED06E2 /* Build configuration list for PBXNativeTarget "SprintJSONTests" */;
 			buildPhases = (
+				542CE2BD862842BB144DEBF9 /* [CP] Check Pods Manifest.lock */,
 				DF4853AC2231B7C900ED06E2 /* Sources */,
 				DF4853AD2231B7C900ED06E2 /* Frameworks */,
 				DF4853AE2231B7C900ED06E2 /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF4853CA2231B7C900ED06E2 /* Build configuration list for PBXNativeTarget "SprintJSONUITests" */;
 			buildPhases = (
+				3B18A656471371457A16BC16 /* [CP] Check Pods Manifest.lock */,
 				DF4853B72231B7C900ED06E2 /* Sources */,
 				DF4853B82231B7C900ED06E2 /* Frameworks */,
 				DF4853B92231B7C900ED06E2 /* Resources */,
@@ -251,12 +299,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B18A656471371457A16BC16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SprintJSONUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		542CE2BD862842BB144DEBF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SprintJSONTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		882E2A5E14C53BEB6ADEB851 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SprintJSON/Pods-SprintJSON-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SprintJSON/Pods-SprintJSON-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A020C86DD9BAC34B76BE017C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SprintJSON-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF4853982231B7C700ED06E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DF4853A22231B7C700ED06E2 /* ViewController.swift in Sources */,
+				DF4853CE2231B8A800ED06E2 /* WebAPI.swift in Sources */,
 				DF4853A02231B7C700ED06E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +570,7 @@
 		};
 		DF4853C52231B7C900ED06E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC299531F4F2ABD3C3DFA550 /* Pods-SprintJSON.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +588,7 @@
 		};
 		DF4853C62231B7C900ED06E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E0D4AEB979F80FAF027DB4 /* Pods-SprintJSON.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +606,7 @@
 		};
 		DF4853C82231B7C900ED06E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D954C263348BA2D70FBEE058 /* Pods-SprintJSONTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +627,7 @@
 		};
 		DF4853C92231B7C900ED06E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DBED9A4A655FF7B152BF5B /* Pods-SprintJSONTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +648,7 @@
 		};
 		DF4853CB2231B7C900ED06E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FC2AF78FBB5EDA9B7AEA17 /* Pods-SprintJSONUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +668,7 @@
 		};
 		DF4853CC2231B7C900ED06E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA752B0B98E1843F30313DE /* Pods-SprintJSONUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
